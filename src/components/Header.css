@@ -1,79 +1,80 @@
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #252525;
-    color: white;
-    padding: 1.3em 1.7em;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #252525;
+  color: white;
+  padding: 1.3em 1.7em;
+  width: 100vw;
 }
 
-.header-logo{
-    display: flex;
-    align-items: center;
-    gap: 1em;
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
-.logo__img{
-    width: 3rem;
-    height: auto;
+.logo__img {
+  width: 3rem;
+  height: auto;
 }
 
-.logo__text{
-    font-size: 1rem;
-    font-weight: 600;
+.logo__text {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.header-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.nav__list{
-    display: flex;
-    align-items: center;
-    gap: 3em;
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 3em;
 }
 
-.nav__item{
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-}   
-
-.header-auth-buttons{
-    display: flex;
-    align-items: center;
-    gap: 1em;
+.nav__item {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.header-auth-buttons__icon{
-    font-size: 1.5rem;
-    cursor: pointer;
-    width: 1.5em;
-    height: 1.5em;
+.header-auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.header-auth-buttons__icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 
-
-.auth__button{
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.5em 1em;
-    border: 1px solid white;
-    border-radius: 25px;
-    cursor: pointer;
-    width: 100px;
-    height: 40px;
+.auth__button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  text-align: center;
 }
 
-.auth__button:hover{
-    background-color: white;
-    color: #252525;
+.auth__button:hover {
+  background-color: white;
+  color: #252525;
 }
 
-.auth__button--active{
-    border: 1px solid black;
-    background-color: #BD3232;
-    color: #252525;
+.auth__button--active {
+  border: 1px solid black;
+  background-color: #BD3232;
+  color: #252525;
 }
